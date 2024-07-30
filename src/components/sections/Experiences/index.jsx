@@ -8,10 +8,10 @@ export const Experiences = () => {
 
       <div className='flex flex-row justify-between mb-20 '>
 
-        <p className={`text-4xl font-bold text-accent font-inter leading-snug`}>3+ Anos de experiência <br /> trabalhando</p>
+        <p className={`text-4xl font-bold text-accent font-inter leading-snug`}><span  className={'text-primary'}>3+ Anos</span> de experiência <br /> trabalhando</p>
 
         <div className='flex flex-col '>
-          <p className="text-2xl font-bold text-primary font-inter leading-10"> ——— Serviços</p>
+          <p className="text-3xl   font-bold text-primary font-inter leading-10"> ─────────── Serviços</p>
           <p className="text-neutral w-10/12">
             Descubra os melhores serviços que eu ofereço aqui para você
           </p>

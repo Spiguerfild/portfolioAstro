@@ -10,9 +10,9 @@ import { Projects } from "../components/sections/Projects";
 
 <Layout title="Welcome to Astro.">
   <main>
-    <NavbarTop />
+    <NavbarTop client:visible />
     <Presentation client:visible />
-    <Experiences />
+    <Experiences client:visible />
     <Projects client:visible />
   </main>
 </Layout>
