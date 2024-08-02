@@ -10,9 +10,9 @@ export const Presentation = () => {
     <div className="px-16">
       <motion.div
         className="p-4 rounded-lg"
-        initial={{ opacity: 0 }} // Define a opacidade inicial da div como 0
-        animate={{ opacity: 1 }} // Define a opacidade final da div como 1
-        transition={{ duration: 2 }} // Define a duração da animação em segundos
+        initial={{ opacity: 0 }} 
+        animate={{ opacity: 1 }} 
+        transition={{ duration: 1 }} 
       >
         <div className="card flex flex-row mt-20 ">
           <div className="w-2/3 text-left">

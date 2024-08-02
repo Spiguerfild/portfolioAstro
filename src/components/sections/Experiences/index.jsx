@@ -1,9 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './styles.css';
 
 export const Experiences = () => {
   return (
     <div className="px-16 mt-44 mb-20">
+       <motion.div
+        className="p-4 rounded-lg"
+        initial={{ opacity: 0 }} 
+        animate={{ opacity: 1 }} 
+        transition={{ duration: 3 }} 
+      >
 
 
       <div className='flex flex-row justify-between mb-20 '>
@@ -19,8 +26,7 @@ export const Experiences = () => {
 
       </div>
 
-
-
+      </motion.div>
     </div>
   );
 }
